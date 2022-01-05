@@ -1,0 +1,15 @@
+# Log
+*.log
+
+# IntelliJ Platform
+.idea/
+*.iml
+
+# Node.js
+node_modules/
+
+# Nuxt.js
+dist/
+
+# Vercel
+.vercel

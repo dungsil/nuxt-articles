@@ -1,0 +1,51 @@
+{
+  "name": "@dungsil/nuxt3-content",
+  "version": "0.0.0",
+  "description": "Simple Git-based headless CMS to generate markdown files for Nuxt.js v3 as API",
+  "license": "MIT",
+  "keywords": [
+    "nuxt",
+    "nuxt3",
+    "nuxt-module"
+  ],
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "import": "./lib/index.mjs"
+    }
+  },
+  "scripts": {
+    "dev": "unbuild --stub",
+    "build": "unbuild",
+    "release": "release-it"
+  },
+  "dependencies": {
+    "@nuxt/kit": "npm:@nuxt/kit-edge@latest",
+    "@vcarl/remark-headings": "0.0.1",
+    "consola": "2.15.3",
+    "pathe": "^0.2.0",
+    "rehype-accessible-emojis": "0.3.2",
+    "rehype-autolink-headings": "6.1.1",
+    "rehype-external-links": "1.0.1",
+    "rehype-parse": "8.0.3",
+    "rehype-sanitize": "5.0.1",
+    "rehype-slug": "5.0.1",
+    "rehype-stringify": "9.0.2",
+    "remark-extract-frontmatter": "3.2.0",
+    "remark-frontmatter": "4.0.1",
+    "remark-gfm": "3.0.1",
+    "remark-parse": "10.0.1",
+    "remark-rehype": "10.1.0",
+    "unified": "10.1.1",
+    "yaml": "1.10.2"
+  },
+  "devDependencies": {
+    "@dungsil/prettier-config": "1.2.1",
+    "@nuxt/schema": "npm:@nuxt/schema-edge@latest",
+    "@types/node": "17.0.8",
+    "prettier": "2.5.1",
+    "release-it": "14.11.8",
+    "unbuild": "0.6.7"
+  },
+  "prettier": "@dungsil/prettier-config"
+}
