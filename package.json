@@ -1,6 +1,6 @@
 {
   "name": "@dungsil/nuxt-articles",
-  "version": "0.0.0",
+  "version": "0.1.0-build",
   "description": "Simple Git-based headless CMS for Nuxt.js",
   "license": "MIT",
   "keywords": [
