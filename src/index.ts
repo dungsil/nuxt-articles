@@ -8,12 +8,12 @@ import { name } from '../package.json'
 import readArticlePathList from './read-articles'
 import markdownToHtml from './markdown-to-html'
 import createApi from './create-api'
-import type { Article, ArticleListData, Nuxt3ContentOptions } from './types'
+import type { Article, ArticleListData, NuxtArticlesOptions } from './types'
 
 // Should include types only
 export * from './types'
 
-export default defineNuxtModule<Nuxt3ContentOptions>({
+export default defineNuxtModule<NuxtArticlesOptions>({
   meta: {
     name,
     configKey: 'content',
@@ -23,7 +23,7 @@ export default defineNuxtModule<Nuxt3ContentOptions>({
     articlesDir: 'articles',
     apiPath: '/articles',
   },
-  async setup(options: Nuxt3ContentOptions, nuxt) {
+  async setup(options: NuxtArticlesOptions, nuxt) {
     // not support nuxt2
     if (isNuxt2(nuxt)) {
       log.error('Sorry, Nuxt.js v2 is not support. Please use `@nuxt/content`')
@@ -35,7 +35,7 @@ export default defineNuxtModule<Nuxt3ContentOptions>({
   },
 })
 
-async function buildArticles(options: Nuxt3ContentOptions, nuxt: Nuxt): Promise<void> {
+async function buildArticles(options: NuxtArticlesOptions, nuxt: Nuxt): Promise<void> {
   // read articles directory
   const articlePathList = await readArticlePathList(join(nuxt.options.srcDir, options.articlesDir))
 

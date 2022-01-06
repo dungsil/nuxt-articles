@@ -1,4 +1,4 @@
-export interface Nuxt3ContentOptions {
+export interface NuxtArticlesOptions {
   articlesDir: string
   apiPath: string
 }
