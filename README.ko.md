@@ -32,6 +32,11 @@ export default {
   buildModules: ['@dungsil/nuxt-articles']
 }
 ```
+```gitignore
+# .gitignore
+server/api/articles.ts
+```
+ - `srcDir`에 따라 변경이 필요할 수 있습니다.
 
 ## 라이선스 및 크레딧
 MIT License &copy; 2022 [Kim Younggeon](https://younggeon.kim)
