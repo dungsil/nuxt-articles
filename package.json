@@ -1,7 +1,7 @@
 {
-  "name": "@dungsil/nuxt3-content",
+  "name": "@dungsil/nuxt-articles",
   "version": "0.0.0",
-  "description": "Simple Git-based headless CMS to generate markdown files for Nuxt.js v3 as API",
+  "description": "Simple Git-based headless CMS for Nuxt.js",
   "license": "MIT",
   "keywords": [
     "nuxt",
