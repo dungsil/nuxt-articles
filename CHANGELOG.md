@@ -1,3 +1,10 @@
+## [0.1.0-next.1](https://github.com/dungsil/nuxt-articles/compare/0.1.0-next.0...0.1.0-next.1) (2022-01-06)
+
+
+### Bug Fixes
+
+* change configKey ([e626cc0](https://github.com/dungsil/nuxt-articles/commit/e626cc0c21e83acd96357c94a6f020147303a3eb))
+
 ## 0.1.0-next.0 (2022-01-06)
 
 
