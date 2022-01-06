@@ -47,5 +47,8 @@
     "release-it": "14.11.8",
     "unbuild": "0.6.7"
   },
+  "peerDependencies": {
+    "nuxt3": ">=3.0.0"
+  },
   "prettier": "@dungsil/prettier-config"
 }
