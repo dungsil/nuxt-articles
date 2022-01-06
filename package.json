@@ -50,5 +50,8 @@
   "peerDependencies": {
     "nuxt3": ">=3.0.0"
   },
-  "prettier": "@dungsil/prettier-config"
+  "prettier": "@dungsil/prettier-config",
+  "publishConfig": {
+    "access": "public"
+  }
 }
