@@ -7,7 +7,6 @@ import type { Article, ArticleListData, Nuxt3ContentOptions } from './types'
 import { name } from '../package.json'
 import readArticlePathList from './read-articles'
 import markdownToHtml from './markdown-to-html'
-import createDb from './create-db'
 import createApi from './create-api'
 
 // Should include types only
@@ -24,8 +23,6 @@ export default defineNuxtModule<Nuxt3ContentOptions>({
     apiPath: '/articles',
   },
   async setup(options: Nuxt3ContentOptions, nuxt) {
-    const isDev = nuxt.options.dev
-
     // not support nuxt2
     if (isNuxt2(nuxt)) {
       log.error('Sorry, Nuxt.js v2 is not support. Please use `@nuxt/content`')
@@ -34,8 +31,6 @@ export default defineNuxtModule<Nuxt3ContentOptions>({
 
     // Create articles before nuxt build
     nuxt.hook('build:before', async () => {
-      log.info('start create articles api')
-
       // read articles directory
       const articlePathList = await readArticlePathList(join(nuxt.options.srcDir, options.articlesDir))
 
@@ -63,12 +58,9 @@ export default defineNuxtModule<Nuxt3ContentOptions>({
         }
       }
 
-      await createDb(join(nuxt.options.srcDir, 'server/db'), articlesList, articleDetails)
-      await createApi(join(nuxt.options.srcDir, 'server/api/'), options.apiPath)
+      await createApi(join(nuxt.options.srcDir, 'server/api/'), options.apiPath, articlesList, articleDetails)
 
-      if (isDev) {
-        log.info(articlePathList.length, articlesList, articleDetails)
-      }
+      log.success('Create articles API')
     })
   },
 })
