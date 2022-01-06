@@ -16,7 +16,7 @@ export * from './types'
 export default defineNuxtModule<NuxtArticlesOptions>({
   meta: {
     name,
-    configKey: 'content',
+    configKey: 'articles',
   },
   defaults: {
     // default module options
