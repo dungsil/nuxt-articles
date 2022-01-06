@@ -10,7 +10,7 @@
 
 
 ## 기능
-- 간단한 사용법
+`articles` 디렉토리에 작성한 마크다운 파일을 [API 엔드포인트][LINK_API_ROUTES]로 생성합니다.
 
 ## TODO
 - remark 및 rehype 플러그인 커스터마이징
@@ -43,3 +43,6 @@ MIT License &copy; 2022 [Kim Younggeon](https://younggeon.kim)
 
 [`@nuxt/content`](https://content.nuxtjs.org/) 에서 영감을 받았습니다. \
 [`@unocss/nuxt`](https://github.com/antfu/unocss/tree/main/packages/nuxt) 의 소스코드를 참고하였습니다.
+
+
+[LINK_API_ROUTES]: https://v3.nuxtjs.org/docs/directory-structure/server/#api-routes

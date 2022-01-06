@@ -9,7 +9,7 @@ A simple Git-based headless CMS for simple websites.
 </p>
 
 ## Features
- - Simple usage
+Generate an [API endpoint][LINK_API_ROUTES] with a markdown file you write in the `articles` directory.
 
 ## TODO
  - Customizable remark, rehype plugins
@@ -42,3 +42,6 @@ MIT License &copy; 2022 [Kim Younggeon](https://younggeon.kim)
 
 Inspired by [`@nuxt/content`](https://content.nuxtjs.org/) \
 Reference by [`@unocss/nuxt`](https://github.com/antfu/unocss/tree/main/packages/nuxt)
+
+
+[LINK_API_ROUTES]: https://v3.nuxtjs.org/docs/directory-structure/server/#api-routes
