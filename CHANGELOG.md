@@ -1,3 +1,10 @@
+### [0.1.2](https://github.com/dungsil/nuxt3-content/compare/v0.1.1...v0.1.2) (2022-01-11)
+
+
+### Bug Fixes
+
+* created by encoding the article key ([5cbcdac](https://github.com/dungsil/nuxt3-content/commit/5cbcdac97927bfbad8d512700656bed601528924))
+
 ### [0.1.1](https://github.com/dungsil/nuxt3-content/compare/v0.1.0...v0.1.1) (2022-01-11)
 
 
