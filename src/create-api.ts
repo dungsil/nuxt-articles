@@ -12,7 +12,7 @@ export default async (
 
   let detailsJsonData = ''
   for (const key in details) {
-    detailsJsonData += `${key}:` + JSON.stringify(details[key]) + ','
+    detailsJsonData += `'${encodeURIComponent(key)}':` + JSON.stringify(details[key]) + ','
   }
 
   await writeFile(
