@@ -1,6 +1,6 @@
 <h1 align="center">nuxt-articles</h1>
 <p align="center">
-A simple Git-based headless CMS for simple websites.
+A simple Git-based headless CMS for small websites.
 </p>
 
 <b align="center">Language</b>
