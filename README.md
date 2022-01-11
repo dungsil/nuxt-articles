@@ -2,9 +2,12 @@
 <p align="center">
 A simple Git-based headless CMS for small websites.
 </p>
-
-<b align="center">Language</b>
+<div align="center">
+	<img alt="NPM" src="https://img.shields.io/npm/l/@dungsil/nuxt-articles?style=flat-square">
+	<img alt="npm (scoped)" src="https://img.shields.io/npm/v/@dungsil/nuxt-articles?style=flat-square">
+</div>
 <p align="center">
+	<b>Language</b> <br>
 	English | <a href="https://github.com/dungsil/nuxt-articles/blob/main/README.ko.md">한국어</a>
 </p>
 

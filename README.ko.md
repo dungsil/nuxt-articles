@@ -2,9 +2,12 @@
 <p align="center">
 	소규모 사이트를 위한 간단한 헤드리스 CMS
 </p>
-
-<b align="center">Language</b>
+<div align="center">
+	<img alt="NPM" src="https://img.shields.io/npm/l/@dungsil/nuxt-articles?style=flat-square">
+	<img alt="npm (scoped)" src="https://img.shields.io/npm/v/@dungsil/nuxt-articles?style=flat-square">
+</div>
 <p align="center">
+	<b>Language</b> <br>
 	<a href="https://github.com/dungsil/nuxt-articles/blob/main/README.md">English</a> | 한국어
 </p>
 
