@@ -24,7 +24,8 @@
   "scripts": {
     "dev": "unbuild --stub",
     "build": "unbuild",
-    "release": "release-it --ci"
+    "prerelease": "pnpm build",
+    "release": "pnpm prerelease && release-it --ci"
   },
   "dependencies": {
     "@nuxt/kit": "npm:@nuxt/kit-edge@latest",
