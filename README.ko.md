@@ -44,7 +44,7 @@ server/api/articles.ts
 ## 라이선스 및 크레딧
 MIT License &copy; 2022 [Kim Younggeon](https://younggeon.kim)
 
-[`@nuxt/content`](https://content.nuxtjs.org/) 에서 영감을 받았습니다. \
+[`@nuxt/content`](https://content.nuxtjs.org/), [`@nuxt/pwa`](https://pwa.nuxtjs.org/) 에서 영감을 받았습니다. \
 [`@unocss/nuxt`](https://github.com/antfu/unocss/tree/main/packages/nuxt) 의 소스코드를 참고하였습니다.
 
 [LINK_API_ROUTES]: https://v3.nuxtjs.org/docs/directory-structure/server/#api-routes

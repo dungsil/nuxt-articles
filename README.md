@@ -43,7 +43,7 @@ server/api/articles.ts
 ## License & Credit
 MIT License &copy; 2022 [Kim Younggeon](https://younggeon.kim)
 
-Inspired by [`@nuxt/content`](https://content.nuxtjs.org/) \
+Inspired by [`@nuxt/content`](https://content.nuxtjs.org/), [`@nuxt/pwa`](https://pwa.nuxtjs.org/) \
 Reference by [`@unocss/nuxt`](https://github.com/antfu/unocss/tree/main/packages/nuxt)
 
 
