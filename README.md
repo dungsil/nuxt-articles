@@ -5,7 +5,7 @@ A simple Git-based headless CMS for simple websites.
 
 <b align="center">Language</b>
 <p align="center">
-	English | <a href="https://github.com/dungsil/nuxt-articles/README.ko.md">한국어</a>
+	English | <a href="https://github.com/dungsil/nuxt-articles/blob/main/README.ko.md">한국어</a>
 </p>
 
 ## Features

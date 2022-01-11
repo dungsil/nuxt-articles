@@ -5,7 +5,7 @@
 
 <b align="center">Language</b>
 <p align="center">
-	<a href="./README.md">English</a> | 한국어
+	<a href="https://github.com/dungsil/nuxt-articles/blob/main/README.md">English</a> | 한국어
 </p>
 
 
