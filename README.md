@@ -43,6 +43,9 @@ server/api/articles.ts
 ## Contribute
 `nuxt-articles` welcomes all contributions! 😍
 
+## Use case
+  - [dungsil/blog](https://github.com/dungsil/blog)
+
 ## License & Credit
 MIT License &copy; 2022 [Kim Younggeon](https://younggeon.kim)
 

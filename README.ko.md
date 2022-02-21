@@ -44,6 +44,9 @@ server/api/articles.ts
 ## 기여
 `nuxt-articles`는 모든 기여를 환영합니다 😍
 
+## 사용 사례
+ - [dungsil/blog](https://github.com/dungsil/blog)
+
 ## 라이선스 및 크레딧
 MIT License &copy; 2022 [Kim Younggeon](https://younggeon.kim)
 
